@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  height: 1000px;
+  background-color: #ad1313;
+  margin: 0 auto;
+}
+
+/* nav bar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navbar__left .navbar__left-logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 24px;
+}
+.navbar > .navbar__right > .navbar__right-list {
+  display: flex;
+}
+.navbar > .navbar__right > .navbar__right-list li {
+  list-style: none;
+}
+.navbar > .navbar__right > .navbar__right-list li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+}

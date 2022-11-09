@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Inter:wght@200;300&family=Oswald:wght@500&family=Poppins:wght@300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 80%;
+  height: 1000px;
+  background-color: #ad1313;
+  margin: 0 auto;
+}
+
+/* nav bar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+}
+.navbar .navbar__left .navbar__left-logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 24px;
+}
+.navbar > .navbar__right > .navbar__right-list {
+  display: flex;
+}
+.navbar > .navbar__right > .navbar__right-list li {
+  list-style: none;
+}
+.navbar > .navbar__right > .navbar__right-list li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+}

@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  height: 1000px;
+  background-color: #ad1313;
+  margin: 0 auto;
+}
+
+/* nav bar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar > .navbar__right > .navbar__right-list {
+  display: flex;
+}
+.navbar > .navbar__right > .navbar__right-list li {
+  list-style: none;
+}
