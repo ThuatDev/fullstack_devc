@@ -1,8 +1,0 @@
-@media screen and (max-width: 600px) {
-  .navbar .navbar__right .navbar__right-list li {
-    display: none !important;
-  }
-  .container {
-    background-color: red;
-  }
-}
